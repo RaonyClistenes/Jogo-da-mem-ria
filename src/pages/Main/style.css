@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+#display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(#000000, #0F0D0FA6);
+  height: 100%;
+  padding: 30px;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  gap: 32px;
+}
+
+.cartao {
+  width: 136px;
+  height: 236px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button{
+  background-color: #F0C551;
+  border: none;
+  width: 160px;
+  height: 52px;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+}
+.congrats{
+  display: none;
+}
